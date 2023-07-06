@@ -8,7 +8,7 @@ body {
         "aside aside aside"
         "main main main"
         "footer footer footer";
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 .o-main, .o-footer {
-    background: #f6f4f2;
+    background: #ffffff;
     color: #000000
 }
 
@@ -49,6 +49,10 @@ body {
 
 .img-container img {
     margin-right: 10px;
+}
+
+.img-logos {
+    float: right;
 }
 
 .main-title {
@@ -70,4 +74,20 @@ body {
 
 .places-table {
     text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 70px; 
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between; 
 }
